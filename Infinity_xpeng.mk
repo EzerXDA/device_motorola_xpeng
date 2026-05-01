@@ -27,3 +27,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=motorola/xpeng_g/xpeng:12/S1RXS32.50-13-25/5fb68-c44485:user/release-keys \
     DeviceProduct=xpeng_retail
 
+#infinity flags
+INFINITY_MAINTAINER := "EzerMod"
+
+# Whether the device supports Fingerprint On Display
+TARGET_HAS_UDFPS := false
+
+# Whether Including Google Apps
+WITH_GAPPS := false #true
