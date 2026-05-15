@@ -10,7 +10,7 @@ TARGET_IS_VAB := true
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+# TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 
